@@ -35,11 +35,6 @@
 - **Word Embedding**: To represent textual data numerically for input into the model.
 - **Categorical Encoding**: For converting mood labels into numerical formats.
 
-### **For the Web Application:**
-- **Streamlit**: For developing the interactive web-based interface.
-- **Pandas**: For processing cafe recommendation data stored in CSV files.
-- **Plotly**: For creating engaging and interactive visualizations.
-
 ## 🎯 Purpose:
 
 - This web-based app serves as a testing platform for the mood detection model and cafe recommendations.
