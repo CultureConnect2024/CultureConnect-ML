@@ -1,45 +1,90 @@
-# CultureConnect-ML
+# CultureConnect Machine Learning
 
-## ✨ Key Features:
+Focusing on the machine learning aspects of our project **CultureConnect**, an app designed to help users understand their emotions and discover suitable cafe recommendations based on their mood.
 
-- **Accurate Mood Detection**: The app detects 6 mood categories (Sadness, Joy, Love, Anger, Fear, Surprise) and visualizes confidence scores for each mood.
-- **Personalized Recommendations**: Based on the detected mood, it suggests cafes aligned with the user's emotional state, providing details such as names, ratings, reviews, and addresses.
-- **Interactive Visualization**: Confidence levels for each mood are displayed dynamically through interactive bar charts.
-- **User-Friendly Interface**: Built with **Streamlit**, the app offers a simple yet intuitive experience for mood analysis.
+---
 
-## 📂 Data Structure:
+## 📊 Tasks
 
-### **cafe-data**
-- This folder contains CSV files, each representing a mood (e.g., `joy_caffe.csv`, `sadness_caffe.csv`, etc.).
-- Each file includes data about cafes that match a specific mood, with columns such as:
-  - **Name**
-  - **Rating**
-  - **Reviews**
-  - **Address**
-  - **Price Range**
-  - **Category**
-  - **Atmosphere**
-- The application reads these files to provide personalized recommendations based on the predicted mood.
+### **1. Data Collection:**
+- Collect mood-related text data from various sources.
+- Gather cafe information tailored to different emotional states.
+- Compile a comprehensive dataset of emotional expressions and cafe environments.
 
-### **mood-data**
-- This folder contains quotes and motivational messages categorized by mood.
-- Quotes are displayed after a mood is detected, enhancing the user experience with an emotional touch.
-- Example: For a detected mood of *Joy*, the app might display an uplifting quote to complement the recommendations.
+### **2. Data Labeling:**
+- Label the dataset with the following mood categories:
+  - Sadness
+  - Joy
+  - Love
+  - Anger
+  - Fear
+  - Surprise
+  - Neutral
+- Add weights to data points based on emotional intensity and context.
 
-## 💡 Technologies Used:
+### **3. Modeling:**
+Build three distinct models:
+- **Mood Detection Model:** Utilize the T5 architecture for emotion classification.
+- **Cafe Recommendation Model:** Implement content-based filtering using TensorFlow and cosine similarity.
+- **Text Summarization:** Fine-tune the T5 architecture to generate mood-based insights.
 
-### **For Model Development (NLP):**
-- **Natural Language Processing (NLP)** techniques were used to preprocess and analyze text data.
-- **TensorFlow**: For training and deploying the deep learning model.
-- **Keras Tokenizer**: For text tokenization and sequence padding.
-- **Word Embedding**: To represent textual data numerically for input into the model.
-- **Categorical Encoding**: For converting mood labels into numerical formats.
+---
 
-## 🎯 Purpose:
+## 🔧 Model Architecture
 
-- This web-based app serves as a testing platform for the mood detection model and cafe recommendations.
-- The final model, along with the cafe and mood recommendation system, will be integrated into a **mobile application** for a more comprehensive and user-friendly experience.
+- **Text Preprocessing:**
+  - Text data is tokenized and padded for uniform input sequences.
+  - Employed one-hot encoding for mood labels.
 
-## 🚀 Conclusion:
+- **Mood Detection Model:**
+  - Built using a sequential neural network architecture:
+    - **Embedding Layer:** Maps words to dense vector representations.
+    - **Bidirectional LSTM:** Captures both past and future dependencies in text.
+    - **Global Max Pooling Layer:** Aggregates sequence information.
+    - **Dense Layers:** Fully connected layers for classification.
+  - Optimized using cross-entropy loss and Adam optimizer.
 
-This project demonstrates how **AI, machine learning, NLP, and creative data utilization** can work together to enhance emotional awareness and deliver personalized solutions. By combining technical expertise with thoughtful design, this application bridges the gap between technology and human emotion.
+- **Cafe Recommendation System:**
+  - Utilizes content-based filtering with TensorFlow.
+  - Employs cosine similarity to match user moods with cafe data embeddings.
+
+- **Text Summarization:**
+  - Leverages a pre-trained T5 transformer architecture fine-tuned for summarization tasks.
+---
+
+## 📃 Dataset
+
+- **Mood Detection Training Data:** Labeled and weighted text data.
+- **Cafe Recommendation Database:** Information on cafes, including names, locations, ratings, and emotional suitability.
+
+---
+
+## 🎨 Model Demo
+
+Explore our model demonstrations:
+- [Mood Detection Model and Cafe Recommendation System](https://mood-prediction-train.streamlit.app/)
+
+
+---
+
+## 🔢 Model Evaluation
+
+Comprehensive analysis of model performance, including:
+- Accuracy metrics.
+![Model Evaluation](assets/training-validation.png)
+- Confusion matrix.
+![Model Evaluation](assets/confusion.png)
+- Emotional classification confidence scores.
+![Model Evaluation](assets/confidence)
+
+---
+
+## 📖 References
+
+1. Vaswani, A., et al. (2017). *Attention Is All You Need.* NeurIPS Conference.
+2. Devlin, J., et al. (2018). *BERT: Pre-training of Deep Bidirectional Transformers.* ACL Conference.
+3. Raffel, C., et al. (2019). *Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer.* JMLR.
+4. Radford, A., et al. (2018). *Improving Language Understanding by Generative Pre-Training.*
+5. Liu, Y., et al. (2019). *RoBERTa: A Robustly Optimized BERT Pretraining Approach.*
+6. Sanh, V., et al. (2020). *DistilBERT, a distilled version of BERT: smaller, faster, cheaper, and lighter.*
+7. Houlsby, N., et al. (2019). *Parameter-Efficient Transfer Learning for NLP.*
