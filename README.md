@@ -23,10 +23,9 @@ Focusing on the machine learning aspects of our project **CultureConnect**, an a
 
 ### **3. Modeling:**
 Build three distinct models:
-- **Mood Detection Model:** Utilize the T5 architecture for emotion classification.
+- **Mood Detection Model:** Utilize the Bidirectional LSTM with Embedding Neural Network architecture for emotion classification.
 - **Cafe Recommendation Model:** Implement content-based filtering using TensorFlow and cosine similarity.
-- **Text Summarization:** Fine-tune the T5 architecture to generate mood-based insights.
-
+- **Text Summarization:** Fine-tune the architecture to generate mood-based insights.
 
 
 ## 🔧 Model Architecture
@@ -41,7 +40,7 @@ Build three distinct models:
     - **Global Max Pooling Layer:** Aggregates sequence information.
     - **Dense Layers:** Fully connected layers for classification.
   - Optimized using cross-entropy loss and Adam optimizer.
-![Model Evaluation](assets/model-architecture.png) ![Model Evaluation](assets/model-architecture-nlp.png)
+![Model Evaluation](assets/model-architecture.png) 
 
 - **Cafe Recommendation System:**
   - Utilizes content-based filtering with TensorFlow.
