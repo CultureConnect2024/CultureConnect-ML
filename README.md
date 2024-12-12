@@ -47,7 +47,7 @@ Build three distinct models:
   - Utilizes content-based filtering with TensorFlow.
   - Employs cosine similarity to match user moods with cafe data embeddings.
 
-![Model Evaluation](assets/Architecture.png) 
+![Model Evaluation](assets/architecture.png) 
 
 ## 📃 Dataset
 - **Mood Detection Training Data:** Labeled and weighted text data.
