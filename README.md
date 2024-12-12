@@ -45,6 +45,7 @@ Build three distinct models:
 
 - **Cafe Recommendation System:**
   - Employs cosine similarity to match user moods with cafe data embeddings.
+  - Determines recommendations based on user reviews and lighting levels of cafes.
 
     ![Model Evaluation](assets/Architecture.png) 
 
