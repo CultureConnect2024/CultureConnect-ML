@@ -40,7 +40,8 @@ Build three distinct models:
     - **Global Max Pooling Layer:** Aggregates sequence information.
     - **Dense Layers:** Fully connected layers for classification.
   - Optimized using cross-entropy loss and Adam optimizer.
-![Model Evaluation](assets/model-architecture.png) 
+
+    ![Model Evaluation](assets/model-architecture.png) 
 
 - **Cafe Recommendation System:**
   - Utilizes content-based filtering with TensorFlow.
