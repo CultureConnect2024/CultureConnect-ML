@@ -80,3 +80,6 @@ Comprehensive analysis of model performance, including:
 5. Liu, Y., et al. (2019). *RoBERTa: A Robustly Optimized BERT Pretraining Approach.*
 6. Sanh, V., et al. (2020). *DistilBERT, a distilled version of BERT: smaller, faster, cheaper, and lighter.*
 7. Houlsby, N., et al. (2019). *Parameter-Efficient Transfer Learning for NLP.*
+
+
+[def]: assets/architecture.png
