@@ -30,7 +30,6 @@ Build three distinct models:
 
 
 ## 🔧 Model Architecture
-
 - **Text Preprocessing:**
   - Text data is tokenized and padded for uniform input sequences.
   - Employed one-hot encoding for mood labels.
@@ -42,24 +41,21 @@ Build three distinct models:
     - **Global Max Pooling Layer:** Aggregates sequence information.
     - **Dense Layers:** Fully connected layers for classification.
   - Optimized using cross-entropy loss and Adam optimizer.
+![Model Evaluation](assets/model-architecture.png) ![Model Evaluation](assets/model-architecture-nlp.png)
 
 - **Cafe Recommendation System:**
   - Utilizes content-based filtering with TensorFlow.
   - Employs cosine similarity to match user moods with cafe data embeddings.
 
-- **Text Summarization:**
-  - Leverages a pre-trained T5 transformer architecture fine-tuned for summarization tasks.
-
+![Model Evaluation](assets/Architecture.png) 
 
 ## 📃 Dataset
-
 - **Mood Detection Training Data:** Labeled and weighted text data.
 - **Cafe Recommendation Database:** Information on cafes, including names, locations, ratings, and emotional suitability.
 
 
 
 ## 🎨 Model Demo
-
 Explore our model demonstrations:
 - [Mood Detection Model and Cafe Recommendation System](https://mood-prediction-train.streamlit.app/)
 
@@ -67,7 +63,6 @@ Explore our model demonstrations:
 ---
 
 ## 🔢 Model Evaluation
-
 Comprehensive analysis of model performance, including:
 - Accuracy metrics.
 ![Model Evaluation](assets/training-validation.png)
@@ -79,7 +74,6 @@ Comprehensive analysis of model performance, including:
 ---
 
 ## 📖 References
-
 1. Vaswani, A., et al. (2017). *Attention Is All You Need.* NeurIPS Conference.
 2. Devlin, J., et al. (2018). *BERT: Pre-training of Deep Bidirectional Transformers.* ACL Conference.
 3. Raffel, C., et al. (2019). *Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer.* JMLR.
