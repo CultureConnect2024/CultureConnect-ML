@@ -74,13 +74,13 @@ Comprehensive analysis of model performance, including:
 ---
 
 ## 📖 References
-1. Vaswani, A., et al. (2017). *Attention Is All You Need.* NeurIPS Conference.
-2. Devlin, J., et al. (2018). *BERT: Pre-training of Deep Bidirectional Transformers.* ACL Conference.
-3. Raffel, C., et al. (2019). *Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer.* JMLR.
-4. Radford, A., et al. (2018). *Improving Language Understanding by Generative Pre-Training.*
-5. Liu, Y., et al. (2019). *RoBERTa: A Robustly Optimized BERT Pretraining Approach.*
-6. Sanh, V., et al. (2020). *DistilBERT, a distilled version of BERT: smaller, faster, cheaper, and lighter.*
-7. Houlsby, N., et al. (2019). *Parameter-Efficient Transfer Learning for NLP.*
+1. Sanh, V., et al. (2020). *DistilBERT, a distilled version of BERT: smaller, faster, cheaper, and lighter.*
+2. Houlsby, N., et al. (2019). *Parameter-Efficient Transfer Learning for NLP.*
+3. Agrippina Fleta (2021). *Analisis Pencahayaan Alami dan Buatan pada Ruang Kantor terhadap Kenyamanan Visual Pengguna.* JURNAL PATRA Vol. 3 No. 1.
+   [Available Online](https://jurnal.idbbali.ac.id/index.php/patra)
+4. Selfiyani Lestari, Bagus Takwin, Dianti Endang Kusumawardhani (2021). *Pencahayaan Baik untuk Emosi yang Positif: Analisis Emosi Saat Malam Hari Berdasarkan Penilaian Terhadap Pencahayaan Lokasi.* INQUIRY Jurnal Ilmiah Psikologi Vol. 12 No. 1, hlm 38-52.
+5. Rr. Puruwita Wardani (2018). *Pengaruh Mood Konstruktif dan Tidak Konstruktif terhadap Pengambilan Keputusan dalam Audit.* JURNAL ONLINE INSAN AKUNTAN Vol. 3 No. 1, Juni 2018.
+6. Peilu Wang, Yao Qian, Frank K. Soong (2015). *A Unified Tagging Solution: Bidirectional LSTM Recurrent Neural Network with Word Embedding.* arXiv. DOI:10.48550/arXiv.1511.00215.
+7. Shi, J., Ye, M., Chen, H. et al. (2023). *Enhancing Efficiency and Capacity of Telehealth Services with Intelligent Triage: A Bidirectional LSTM Neural Network Model Employing Character Embedding.* BMC Med Inform Decis Mak 23, 269. DOI:10.1186/s12911-023-02367-1.
 
 
-[def]: assets/architecture.png
