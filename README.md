@@ -44,10 +44,9 @@ Build three distinct models:
     ![Model Evaluation](assets/model-architecture.png) 
 
 - **Cafe Recommendation System:**
-  - Utilizes content-based filtering with TensorFlow.
   - Employs cosine similarity to match user moods with cafe data embeddings.
 
-![Model Evaluation](assets/architecture.png) 
+    ![Model Evaluation](assets/architecture.png) 
 
 ## 📃 Dataset
 - **Mood Detection Training Data:** Labeled and weighted text data.
@@ -69,7 +68,7 @@ Comprehensive analysis of model performance, including:
 - Confusion matrix.
 ![Model Evaluation](assets/confusion.png)
 - Emotional classification confidence scores.
-![Model Evaluation](assets/confidence)
+![Model Evaluation](assets/confidence.png)
 
 ---
 
