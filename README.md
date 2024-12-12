@@ -2,7 +2,7 @@
 
 Focusing on the machine learning aspects of our project **CultureConnect**, an app designed to help users understand their emotions and discover suitable cafe recommendations based on their mood.
 
----
+
 
 ## 📊 Tasks
 
@@ -19,8 +19,7 @@ Focusing on the machine learning aspects of our project **CultureConnect**, an a
   - Anger
   - Fear
   - Surprise
-  - Neutral
-- Add weights to data points based on emotional intensity and context.
+
 
 ### **3. Modeling:**
 Build three distinct models:
@@ -28,7 +27,7 @@ Build three distinct models:
 - **Cafe Recommendation Model:** Implement content-based filtering using TensorFlow and cosine similarity.
 - **Text Summarization:** Fine-tune the T5 architecture to generate mood-based insights.
 
----
+
 
 ## 🔧 Model Architecture
 
@@ -50,14 +49,14 @@ Build three distinct models:
 
 - **Text Summarization:**
   - Leverages a pre-trained T5 transformer architecture fine-tuned for summarization tasks.
----
+
 
 ## 📃 Dataset
 
 - **Mood Detection Training Data:** Labeled and weighted text data.
 - **Cafe Recommendation Database:** Information on cafes, including names, locations, ratings, and emotional suitability.
 
----
+
 
 ## 🎨 Model Demo
 
