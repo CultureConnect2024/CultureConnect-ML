@@ -46,7 +46,7 @@ Build three distinct models:
 - **Cafe Recommendation System:**
   - Employs cosine similarity to match user moods with cafe data embeddings.
 
-    ![Model Evaluation](assets/architecture.png) 
+    ![Model Evaluation](assets/Architecture.png) 
 
 ## 📃 Dataset
 - **Mood Detection Training Data:** Labeled and weighted text data.
